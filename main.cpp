@@ -18,13 +18,16 @@ int main() {
     int n; 
     cout << "¬вед≥ть розм≥р масиву: ";
     cin >> n;
-    int arr[size];
+    int arr[1];
 
-    cout << "¬вед≥ть елементи масиву: " << endl;
     for (int i = 0; i < n; i++) {
+		arr[i] += 1;
+	}
+
+    for (int i = 0; i < n; i++) {
+        cout << "¬вед≥ть елемент масиву: ";
         cin >> arr[i];
     }
-
     int key; 
     cout << "¬вед≥ть шукане значенн€: ";
     cin >> key;
